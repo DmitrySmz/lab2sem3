@@ -1,0 +1,9 @@
+# ninja log v6
+7	1065	7529724620921314	lab2sem3_autogen/timestamp	b17c71cb425b2d7
+7	1065	7529724620921314	lab2sem3_autogen/mocs_compilation.cpp	b17c71cb425b2d7
+7	1065	7529724620921314	F:/lab2sem3/lab2sem3/build/Desktop_Qt_5_15_15_shared_MinGW_w64_MINGW64_MSYS2-Debug/lab2sem3_autogen/timestamp	b17c71cb425b2d7
+7	1065	7529724620921314	F:/lab2sem3/lab2sem3/build/Desktop_Qt_5_15_15_shared_MinGW_w64_MINGW64_MSYS2-Debug/lab2sem3_autogen/mocs_compilation.cpp	b17c71cb425b2d7
+1071	3097	7529724621981174	CMakeFiles/lab2sem3.dir/lab2sem3_autogen/mocs_compilation.cpp.obj	ac04d16123e30cb1
+1102	3225	7529724622300316	CMakeFiles/lab2sem3.dir/main.cpp.obj	845f44ab55cfc5d8
+1107	3317	7529724622349978	CMakeFiles/lab2sem3.dir/mainwindow.cpp.obj	52308c3f2cb5af0
+3318	3722	7529724644455306	lab2sem3.exe	80f16ee3022411ad
