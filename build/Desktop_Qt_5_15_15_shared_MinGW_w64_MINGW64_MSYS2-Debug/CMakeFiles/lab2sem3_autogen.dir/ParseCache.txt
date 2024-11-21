@@ -301,3 +301,6 @@ F:/lab2sem3/lab2sem3/mainwindow.h
  mdp:F:/msys2/mingw64/include/wchar.h
  mdp:F:/msys2/mingw64/include/wctype.h
  mdp:F:/msys2/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/mm_malloc.h
+F:/lab2sem3/lab2sem3/Sequence.h
+F:/lab2sem3/lab2sem3/sorter.h
+F:/lab2sem3/lab2sem3/dinamicArray.h

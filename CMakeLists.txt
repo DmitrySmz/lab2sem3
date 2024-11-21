@@ -38,6 +38,10 @@ else()
     else()
         add_executable(lab2sem3
             ${PROJECT_SOURCES}
+            Sequence.h
+            dinamicArray.h
+            sorter.h
+            timeTests.h
         )
     endif()
 endif()

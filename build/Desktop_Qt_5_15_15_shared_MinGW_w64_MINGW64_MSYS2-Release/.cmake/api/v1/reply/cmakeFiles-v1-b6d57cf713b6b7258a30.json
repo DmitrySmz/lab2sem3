@@ -6,7 +6,7 @@
 		},
 		{
 			"isGenerated" : true,
-			"path" : "build/Desktop_Qt_5_15_15_shared_MinGW_w64_MINGW64_MSYS2-Debug/.qtc/package-manager/auto-setup.cmake"
+			"path" : "build/Desktop_Qt_5_15_15_shared_MinGW_w64_MINGW64_MSYS2-Release/.qtc/package-manager/auto-setup.cmake"
 		},
 		{
 			"isCMake" : true,
@@ -20,7 +20,7 @@
 		},
 		{
 			"isGenerated" : true,
-			"path" : "build/Desktop_Qt_5_15_15_shared_MinGW_w64_MINGW64_MSYS2-Debug/CMakeFiles/3.30.5/CMakeSystem.cmake"
+			"path" : "build/Desktop_Qt_5_15_15_shared_MinGW_w64_MINGW64_MSYS2-Release/CMakeFiles/3.30.5/CMakeSystem.cmake"
 		},
 		{
 			"isCMake" : true,
@@ -289,7 +289,7 @@
 		},
 		{
 			"isGenerated" : true,
-			"path" : "build/Desktop_Qt_5_15_15_shared_MinGW_w64_MINGW64_MSYS2-Debug/CMakeFiles/3.30.5/CMakeCXXCompiler.cmake"
+			"path" : "build/Desktop_Qt_5_15_15_shared_MinGW_w64_MINGW64_MSYS2-Release/CMakeFiles/3.30.5/CMakeCXXCompiler.cmake"
 		},
 		{
 			"isCMake" : true,
@@ -363,7 +363,7 @@
 		},
 		{
 			"isGenerated" : true,
-			"path" : "build/Desktop_Qt_5_15_15_shared_MinGW_w64_MINGW64_MSYS2-Debug/CMakeFiles/3.30.5/CMakeRCCompiler.cmake"
+			"path" : "build/Desktop_Qt_5_15_15_shared_MinGW_w64_MINGW64_MSYS2-Release/CMakeFiles/3.30.5/CMakeRCCompiler.cmake"
 		},
 		{
 			"isCMake" : true,
@@ -447,7 +447,7 @@
 		},
 		{
 			"isGenerated" : true,
-			"path" : "build/Desktop_Qt_5_15_15_shared_MinGW_w64_MINGW64_MSYS2-Debug/CMakeFiles/3.30.5/CMakeCXXCompiler.cmake"
+			"path" : "build/Desktop_Qt_5_15_15_shared_MinGW_w64_MINGW64_MSYS2-Release/CMakeFiles/3.30.5/CMakeCXXCompiler.cmake"
 		},
 		{
 			"isCMake" : true,
@@ -621,7 +621,7 @@
 	"kind" : "cmakeFiles",
 	"paths" : 
 	{
-		"build" : "F:/lab2sem3/lab2sem3/build/Desktop_Qt_5_15_15_shared_MinGW_w64_MINGW64_MSYS2-Debug",
+		"build" : "F:/lab2sem3/lab2sem3/build/Desktop_Qt_5_15_15_shared_MinGW_w64_MINGW64_MSYS2-Release",
 		"source" : "F:/lab2sem3/lab2sem3"
 	},
 	"version" : 

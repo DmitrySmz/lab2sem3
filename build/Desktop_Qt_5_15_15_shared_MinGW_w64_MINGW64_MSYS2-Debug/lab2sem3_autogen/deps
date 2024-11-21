@@ -1,13 +1,16 @@
 lab2sem3_autogen/timestamp: \
 	F:/lab2sem3/lab2sem3/CMakeLists.txt \
+	F:/lab2sem3/lab2sem3/Sequence.h \
 	F:/lab2sem3/lab2sem3/build/Desktop_Qt_5_15_15_shared_MinGW_w64_MINGW64_MSYS2-Debug/.qtc/package-manager/auto-setup.cmake \
 	F:/lab2sem3/lab2sem3/build/Desktop_Qt_5_15_15_shared_MinGW_w64_MINGW64_MSYS2-Debug/CMakeFiles/3.30.5/CMakeCXXCompiler.cmake \
 	F:/lab2sem3/lab2sem3/build/Desktop_Qt_5_15_15_shared_MinGW_w64_MINGW64_MSYS2-Debug/CMakeFiles/3.30.5/CMakeRCCompiler.cmake \
 	F:/lab2sem3/lab2sem3/build/Desktop_Qt_5_15_15_shared_MinGW_w64_MINGW64_MSYS2-Debug/CMakeFiles/3.30.5/CMakeSystem.cmake \
 	F:/lab2sem3/lab2sem3/build/Desktop_Qt_5_15_15_shared_MinGW_w64_MINGW64_MSYS2-Debug/lab2sem3_autogen/moc_predefs.h \
+	F:/lab2sem3/lab2sem3/dinamicArray.h \
 	F:/lab2sem3/lab2sem3/main.cpp \
 	F:/lab2sem3/lab2sem3/mainwindow.cpp \
 	F:/lab2sem3/lab2sem3/mainwindow.h \
+	F:/lab2sem3/lab2sem3/sorter.h \
 	F:/msys2/mingw64/include/QtCore/qalgorithms.h \
 	F:/msys2/mingw64/include/QtCore/qarraydata.h \
 	F:/msys2/mingw64/include/QtCore/qatomic.h \
@@ -338,82 +341,19 @@ lab2sem3_autogen/timestamp: \
 	F:/msys2/mingw64/lib/cmake/Qt5Widgets/Qt5WidgetsMacros.cmake \
 	F:/msys2/mingw64/lib/cmake/Qt5Widgets/Qt5Widgets_QWindowsVistaStylePlugin.cmake \
 	F:/msys2/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include/mm_malloc.h \
-	F:/msys2/mingw64/share/cmake/Modules/CMakeCXXCompiler.cmake.in \
-	F:/msys2/mingw64/share/cmake/Modules/CMakeCXXCompilerABI.cpp \
 	F:/msys2/mingw64/share/cmake/Modules/CMakeCXXInformation.cmake \
 	F:/msys2/mingw64/share/cmake/Modules/CMakeCommonLanguageInclude.cmake \
-	F:/msys2/mingw64/share/cmake/Modules/CMakeCompilerIdDetection.cmake \
-	F:/msys2/mingw64/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake \
-	F:/msys2/mingw64/share/cmake/Modules/CMakeDetermineCompiler.cmake \
-	F:/msys2/mingw64/share/cmake/Modules/CMakeDetermineCompilerABI.cmake \
-	F:/msys2/mingw64/share/cmake/Modules/CMakeDetermineCompilerId.cmake \
-	F:/msys2/mingw64/share/cmake/Modules/CMakeDetermineCompilerSupport.cmake \
-	F:/msys2/mingw64/share/cmake/Modules/CMakeDetermineRCCompiler.cmake \
-	F:/msys2/mingw64/share/cmake/Modules/CMakeDetermineSystem.cmake \
-	F:/msys2/mingw64/share/cmake/Modules/CMakeFindBinUtils.cmake \
 	F:/msys2/mingw64/share/cmake/Modules/CMakeGenericSystem.cmake \
 	F:/msys2/mingw64/share/cmake/Modules/CMakeInitializeConfigs.cmake \
 	F:/msys2/mingw64/share/cmake/Modules/CMakeLanguageInformation.cmake \
-	F:/msys2/mingw64/share/cmake/Modules/CMakeNinjaFindMake.cmake \
 	F:/msys2/mingw64/share/cmake/Modules/CMakeParseArguments.cmake \
-	F:/msys2/mingw64/share/cmake/Modules/CMakeParseImplicitIncludeInfo.cmake \
-	F:/msys2/mingw64/share/cmake/Modules/CMakeParseImplicitLinkInfo.cmake \
-	F:/msys2/mingw64/share/cmake/Modules/CMakeParseLibraryArchitecture.cmake \
-	F:/msys2/mingw64/share/cmake/Modules/CMakeRCCompiler.cmake.in \
 	F:/msys2/mingw64/share/cmake/Modules/CMakeRCInformation.cmake \
-	F:/msys2/mingw64/share/cmake/Modules/CMakeSystem.cmake.in \
 	F:/msys2/mingw64/share/cmake/Modules/CMakeSystemSpecificInformation.cmake \
 	F:/msys2/mingw64/share/cmake/Modules/CMakeSystemSpecificInitialize.cmake \
-	F:/msys2/mingw64/share/cmake/Modules/CMakeTestCXXCompiler.cmake \
-	F:/msys2/mingw64/share/cmake/Modules/CMakeTestCompilerCommon.cmake \
-	F:/msys2/mingw64/share/cmake/Modules/CMakeTestRCCompiler.cmake \
-	F:/msys2/mingw64/share/cmake/Modules/Compiler/ADSP-DetermineCompiler.cmake \
-	F:/msys2/mingw64/share/cmake/Modules/Compiler/ARMCC-DetermineCompiler.cmake \
-	F:/msys2/mingw64/share/cmake/Modules/Compiler/ARMClang-DetermineCompiler.cmake \
-	F:/msys2/mingw64/share/cmake/Modules/Compiler/AppleClang-DetermineCompiler.cmake \
-	F:/msys2/mingw64/share/cmake/Modules/Compiler/Borland-DetermineCompiler.cmake \
 	F:/msys2/mingw64/share/cmake/Modules/Compiler/CMakeCommonCompilerMacros.cmake \
-	F:/msys2/mingw64/share/cmake/Modules/Compiler/Clang-DetermineCompiler.cmake \
-	F:/msys2/mingw64/share/cmake/Modules/Compiler/Clang-DetermineCompilerInternal.cmake \
-	F:/msys2/mingw64/share/cmake/Modules/Compiler/Compaq-CXX-DetermineCompiler.cmake \
-	F:/msys2/mingw64/share/cmake/Modules/Compiler/Cray-DetermineCompiler.cmake \
-	F:/msys2/mingw64/share/cmake/Modules/Compiler/CrayClang-DetermineCompiler.cmake \
-	F:/msys2/mingw64/share/cmake/Modules/Compiler/Embarcadero-DetermineCompiler.cmake \
-	F:/msys2/mingw64/share/cmake/Modules/Compiler/Fujitsu-DetermineCompiler.cmake \
-	F:/msys2/mingw64/share/cmake/Modules/Compiler/FujitsuClang-DetermineCompiler.cmake \
-	F:/msys2/mingw64/share/cmake/Modules/Compiler/GHS-DetermineCompiler.cmake \
-	F:/msys2/mingw64/share/cmake/Modules/Compiler/GNU-CXX-DetermineCompiler.cmake \
 	F:/msys2/mingw64/share/cmake/Modules/Compiler/GNU-CXX.cmake \
-	F:/msys2/mingw64/share/cmake/Modules/Compiler/GNU-FindBinUtils.cmake \
 	F:/msys2/mingw64/share/cmake/Modules/Compiler/GNU.cmake \
-	F:/msys2/mingw64/share/cmake/Modules/Compiler/HP-CXX-DetermineCompiler.cmake \
-	F:/msys2/mingw64/share/cmake/Modules/Compiler/IAR-DetermineCompiler.cmake \
-	F:/msys2/mingw64/share/cmake/Modules/Compiler/IBMCPP-CXX-DetermineVersionInternal.cmake \
-	F:/msys2/mingw64/share/cmake/Modules/Compiler/IBMClang-CXX-DetermineCompiler.cmake \
-	F:/msys2/mingw64/share/cmake/Modules/Compiler/Intel-DetermineCompiler.cmake \
-	F:/msys2/mingw64/share/cmake/Modules/Compiler/IntelLLVM-DetermineCompiler.cmake \
-	F:/msys2/mingw64/share/cmake/Modules/Compiler/LCC-CXX-DetermineCompiler.cmake \
-	F:/msys2/mingw64/share/cmake/Modules/Compiler/MSVC-DetermineCompiler.cmake \
-	F:/msys2/mingw64/share/cmake/Modules/Compiler/NVHPC-DetermineCompiler.cmake \
-	F:/msys2/mingw64/share/cmake/Modules/Compiler/NVIDIA-DetermineCompiler.cmake \
-	F:/msys2/mingw64/share/cmake/Modules/Compiler/OpenWatcom-DetermineCompiler.cmake \
-	F:/msys2/mingw64/share/cmake/Modules/Compiler/OrangeC-DetermineCompiler.cmake \
-	F:/msys2/mingw64/share/cmake/Modules/Compiler/PGI-DetermineCompiler.cmake \
-	F:/msys2/mingw64/share/cmake/Modules/Compiler/PathScale-DetermineCompiler.cmake \
-	F:/msys2/mingw64/share/cmake/Modules/Compiler/SCO-DetermineCompiler.cmake \
-	F:/msys2/mingw64/share/cmake/Modules/Compiler/SunPro-CXX-DetermineCompiler.cmake \
-	F:/msys2/mingw64/share/cmake/Modules/Compiler/TI-DetermineCompiler.cmake \
-	F:/msys2/mingw64/share/cmake/Modules/Compiler/TIClang-DetermineCompiler.cmake \
-	F:/msys2/mingw64/share/cmake/Modules/Compiler/Tasking-DetermineCompiler.cmake \
-	F:/msys2/mingw64/share/cmake/Modules/Compiler/VisualAge-CXX-DetermineCompiler.cmake \
-	F:/msys2/mingw64/share/cmake/Modules/Compiler/Watcom-DetermineCompiler.cmake \
-	F:/msys2/mingw64/share/cmake/Modules/Compiler/XL-CXX-DetermineCompiler.cmake \
-	F:/msys2/mingw64/share/cmake/Modules/Compiler/XLClang-CXX-DetermineCompiler.cmake \
-	F:/msys2/mingw64/share/cmake/Modules/Compiler/zOS-CXX-DetermineCompiler.cmake \
 	F:/msys2/mingw64/share/cmake/Modules/GNUInstallDirs.cmake \
-	F:/msys2/mingw64/share/cmake/Modules/Internal/CMakeDetermineLinkerId.cmake \
-	F:/msys2/mingw64/share/cmake/Modules/Internal/FeatureTesting.cmake \
-	F:/msys2/mingw64/share/cmake/Modules/Platform/Windows-Determine-CXX.cmake \
 	F:/msys2/mingw64/share/cmake/Modules/Platform/Windows-GNU-CXX-ABI.cmake \
 	F:/msys2/mingw64/share/cmake/Modules/Platform/Windows-GNU-CXX.cmake \
 	F:/msys2/mingw64/share/cmake/Modules/Platform/Windows-GNU.cmake \
