@@ -8,7 +8,9 @@
 int main(int argc, char *argv[])
 {
 
-    testBubbleSorter();
+    // testBubbleSorter();
+    //testBinaryInsertionSorter();
+    testQuickSorter();
     QApplication a(argc, argv);
     MainWindow w;
     w.show();

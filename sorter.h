@@ -37,15 +37,28 @@ public:
 template <typename T>
 class BinaryInsertionSorter : public ISorter<T> {
 public:
-    DinamicArray<T>* Sort(DinamicArray<T>* arr, int (*cmp)(T,T)) override {
-        for (size_t i = 1; i < arr->GetSize(); ++i) {
+    DinamicArray<T>* Sort(DinamicArray<T>* arr, int (*cmp)(const T&, const T&)) override {
+        for (size_t i = 1; i < arr->get_size(); ++i) {
             T key = arr->GetData()[i];
-            size_t j = i - 1;
-            while (j >= 0 && cmp(arr->GetData()[j], key) > 0) {
-                arr->GetData()[j + 1] = arr->GetData()[j];
-                j--;
+            size_t low = 0;
+            size_t high = i;
+
+            // Найти позицию вставки ключа с помощью бинарного поиска
+            while (low < high) {
+                size_t mid = (low + high) / 2;
+                if (cmp(arr->GetData()[mid], key) > 0) {
+                    high = mid;
+                } else {
+                    low = mid + 1;
+                }
             }
-            arr->GetData()[j + 1] = key;
+
+            // Сдвинуть элементы вправо для вставки ключа
+            for (size_t j = i; j > low; --j) {
+                arr->GetData()[j] = arr->GetData()[j - 1];
+            }
+
+            arr->GetData()[low] = key;
         }
 
         return arr;
@@ -56,13 +69,13 @@ public:
 template <typename T>
 class QuickSorter : public ISorter<T> {
 public:
-    DinamicArray<T>* Sort(DinamicArray<T>* arr, int (*cmp)(T, T)) override {
-        quickSort(arr->GetData(), 0, arr->GetSize() - 1, cmp);
+    DinamicArray<T>* Sort(DinamicArray<T>* arr, int (*cmp)(const T&, const T&)) override {
+        quickSort(arr->GetData(), 0, arr->get_size() - 1, cmp);
         return arr;
     }
 
 private:
-    void quickSort(T* data, int low, int high, int (*cmp)(T, T)) {
+    void quickSort(T* data, int low, int high, int (*cmp)(const T&, const T&)) {
         if (low < high) {
             int pi = partition(data, low, high, cmp);
             quickSort(data, low, pi - 1, cmp);
@@ -70,16 +83,16 @@ private:
         }
     }
 
-    int partition(T* data, int low, int high, int (*cmp)(T, T)) {
+    int partition(T* data, int low, int high, int (*cmp)(const T&, const T&)) {
         T pivot = data[high];
         int i = low - 1;
         for (int j = low; j <= high - 1; j++) {
             if (cmp(data[j], pivot) < 0) {
                 i++;
-                swap(data[i], data[j]);
+                std::swap(data[i], data[j]);
             }
         }
-        swap(data[i + 1], data[high]);
+        std::swap(data[i + 1], data[high]);
         return i + 1;
     }
 };
